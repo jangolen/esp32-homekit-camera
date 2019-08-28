@@ -25,4 +25,4 @@ menuconfig`):
 * ESP32 HomeKit Camera
     * AP or STA = *your preference*
     * Camera Pins
-        * Select Camera Pinout = *your variant of module*
+        * Select Camera Pinout = TTGO_Camera_module_V17
