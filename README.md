@@ -1,8 +1,11 @@
-# esp32-homekit-camera
+# esp32-homekit-camera fork
+adaptatiom of butiful Maxim Kulkin project for TTGO Camera modul with working OLED display modul, PIR modul.
+DHT/BMP sensors soon, as and implementaion of Motion characteristik in to Homekit.
+
 
 Firmware for esp32-camera module to act as Apple Homekit IP camera.
 
-Based on [esp-homekit](https://github.com/maximkulkin/esp-homekit).
+Based on https://github.com/maximkulkin/esp32-homekit-camera [esp-homekit](https://github.com/maximkulkin/esp-homekit).
 
 ## Configuration
 
