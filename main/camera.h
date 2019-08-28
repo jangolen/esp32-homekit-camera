@@ -113,7 +113,7 @@
 #define CAMERA_PIN_VSYNC    27
 #define CAMERA_PIN_HREF     25
 #define CAMERA_PIN_PCLK     19
-#define GPIO_PIR	          33
+#define GPIO_PIR            33
 
 
 #elif CONFIG_CAMERA_MODEL_CUSTOM
