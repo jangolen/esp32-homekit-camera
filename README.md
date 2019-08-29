@@ -7,6 +7,12 @@ Firmware for esp32-camera module to act as Apple Homekit IP camera.
 
 Based on https://github.com/maximkulkin/esp32-homekit-camera [esp-homekit](https://github.com/maximkulkin/esp-homekit).
 
+For compiling under Windows:
+1. Install Espressif-IDF for Windows : https://docs.espressif.com/projects/esp-idf/en/stable/get-started/index.html#get-started-get-esp-idf
+2. Add work path as described : https://docs.espressif.com/projects/esp-idf/en/stable/get-started/add-idf_path-to-profile.html#add-idf-path-to-profile-windows
+3. Start msys32 and change directory to project's dir cd C:/msys32/home/user-name/esp/esp-idf  (note the slashes)
+4. From msys window run "make menuconfig" as below, then "make flash"
+ 
 ## Configuration
 
 Before compiling, you need to alter several settings in menuconfig (`make
