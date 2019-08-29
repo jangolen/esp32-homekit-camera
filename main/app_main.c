@@ -1568,6 +1568,7 @@ void app_main(void) {
         ESP_ERROR_CHECK( nvs_flash_erase() );
         ESP_ERROR_CHECK( nvs_flash_init() );
     }
+    
     wifi_init();
 #ifdef CONFIG_CAMERA_MODEL_TTGO_V1_7
     mssd1306_init();
